@@ -23,7 +23,7 @@ As for using a components library, you have multiple choices:
 
 ### Application
 
-In this technical test, you will be creating a small frontend application that lists the different superheroes and supervillains from Marvel, where you will be able to search for a character based on their name. Your page should:
+In this technical test, you will be creating a small frontend application that lists the different superheroes and supervillains from Marvel, where you will be able to search for a character based on the start of their name. Your page should:
 - On start up, show an empty page with no results
 - When the user searches for a superhero, by typing on the Search field, and hits enter, a list of 4 results will be displayed.
 - At the bottom of the page, if there are more results, a pagination system will be displayed, that will allow the user to see more results.

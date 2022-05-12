@@ -7,7 +7,6 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from '../components/Header';
-import Search from '../components/Search';
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
 					exact
 					path="/"
 				>
-					<Search />
+					<section className="lumx-spacing-padding-horizontal-huge" />
 				</Route>
 			</Switch>
 		</Router>

@@ -1170,33 +1170,33 @@
   resolved "https://registry.yarnpkg.com/@lukeed/csprng/-/csprng-1.0.1.tgz#625e93a0edb2c830e3c52ce2d67b9d53377c6a66"
   integrity sha512-uSvJdwQU5nK+Vdf6zxcWAY2A8r7uqe+gePwLWzJ+fsQehq18pc0I2hJKwypZ2aLM90+Er9u1xn4iLJPZ+xlL4g==
 
-"@lumx/core@2.2.12", "@lumx/core@^2.2.12":
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/@lumx/core/-/core-2.2.12.tgz#5b82f5bc755bcf838e2b85aa32488cb75ee4d2bc"
-  integrity sha512-q07wdVtfWt0VuIFRmPG7SXM4riNWeb4t3dfRy3pYVXl/6vzOwYdHweVXu55QTfxZydtoGz1fqQ1qyxefM/WlpQ==
+"@lumx/core@2.2.17", "@lumx/core@^2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@lumx/core/-/core-2.2.17.tgz#96f0b5f4ba4724c5d8b663348ae55e1b224a10f1"
+  integrity sha512-YFB8jIFhWHTxJ7UPstO7/DZNBFsnZTaJNZoSLhBorDZFcl0n0X8MuPwPkjmZDKl1k8vQTKX7SmZhR9WNRGGsYw==
   dependencies:
     classnames "^2.2.6"
     focus-visible "^5.0.2"
     lodash "4.17.21"
     sass-mq "^5.0.0"
 
-"@lumx/icons@2.2.12", "@lumx/icons@^2.2.12":
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/@lumx/icons/-/icons-2.2.12.tgz#4737fe2e9adbaf22e0fae65e3eab06b3a0e28bf5"
-  integrity sha512-++rIsI+qgqBdKfk5j/gTfnIlK2ddYe7UrBb+syus2Xu9k/a5+s/CBrNaFYUb5QzhO+zdhfcQ6tBIfWoM7cHBOg==
+"@lumx/icons@2.2.17", "@lumx/icons@^2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@lumx/icons/-/icons-2.2.17.tgz#1febb73fc3c41d82c1695c9971b554300f83a339"
+  integrity sha512-2M/NJFpAXiwCNl0pFnOeA+ailIjqPaGnWNPN/cJRluVkYGsLcu0dX71AYbo4M6pvCFj85TeB3Fb3E0rZlQIRrw==
   dependencies:
     "@mdi/font" "5.8.55"
     "@mdi/js" "5.8.55"
 
-"@lumx/react@2.2.12":
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/@lumx/react/-/react-2.2.12.tgz#4bfe69f9a11c37ea2373962ec77b2c1f2d0dc571"
-  integrity sha512-XKZZ3e98XNLDgMVCWoXrI0ts2mTNRsO8Tv/sGTajYCz5ZBEgCgVtnxGZEc64eg3ONIp4+cH1rgohnaG7WAIrfA==
+"@lumx/react@2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@lumx/react/-/react-2.2.17.tgz#4f9b55e8abae92a8ad40318008ccac305db2e5d2"
+  integrity sha512-famZ/rg8YI/rqR9y9AXLUdXjcdgZJ7c0nxahq5c7HxUOyYvrj71AlkgF3g8i9riaxGPLT9jIus7UD04LnL2ecw==
   dependencies:
     uid "^2.0.0"
     "@juggle/resize-observer" "^3.2.0"
-    "@lumx/core" "^2.2.12"
-    "@lumx/icons" "^2.2.12"
+    "@lumx/core" "^2.2.17"
+    "@lumx/icons" "^2.2.17"
     "@popperjs/core" "^2.5.4"
     body-scroll-lock "^3.1.5"
     classnames "^2.2.6"
@@ -7089,9 +7089,9 @@ moment-range@^4.0.2:
     es6-symbol "^3.1.0"
 
 moment@^2.24.0:
-  version "2.29.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
-  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
+  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
 
 move-concurrently@^1.0.1:
   version "1.0.1"

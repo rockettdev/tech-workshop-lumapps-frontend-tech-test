@@ -1,11 +1,11 @@
 import React from 'react';
 import { FlexBox, Alignment } from '@lumx/react';
-import SearchField from '../SearchField';
+import Search from '../Search';
 
 const Header = () => (
 	<header className="lumx-spacing-padding-big header">
 		<FlexBox vAlign={Alignment.right}>
-			<SearchField />
+			<Search />
 		</FlexBox>
 	</header>
 );

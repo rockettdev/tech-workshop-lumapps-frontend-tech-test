@@ -7,6 +7,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from '../components/Header';
+import Results from '../components/Results';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 					<section className="lumx-spacing-padding-horizontal-huge" />
 				</Route>
 			</Switch>
+			<Results />
 		</Router>
 
 	</>

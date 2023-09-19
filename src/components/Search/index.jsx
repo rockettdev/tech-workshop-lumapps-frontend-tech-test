@@ -9,13 +9,14 @@ function Search() {
   const [searchInput, setSearchInput] = useState('');
   const url = process.env.REACT_APP_MARVEL_API_KEY;
 
-  const getCharacter = async () => {
+  const getCharacter = async (e) => {
+    e.preventDefault();
     try {
       await axios.get(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${searchInput}&apikey=${url}`).then((res) => {
         // handle success
         console.log(res);
       });
-    } catch (e) {
+    } catch {
       console.error(e);
     }
   };

@@ -7,14 +7,19 @@ import axios from 'axios';
 
 function Search() {
   const [searchInput, setSearchInput] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  console.log(searchResults);
   const url = process.env.REACT_APP_MARVEL_API_KEY;
 
   const getCharacter = async (e) => {
     e.preventDefault();
     try {
       await axios.get(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${searchInput}&apikey=${url}`).then((res) => {
-        // handle success
-        console.log(res);
+        const dataArray = [];
+        res.data.data.results.forEach((character) => {
+          dataArray.push(character);
+          setSearchResults(dataArray);
+        });
       });
     } catch {
       console.error(e);
